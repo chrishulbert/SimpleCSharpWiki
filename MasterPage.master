@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/> 
+  <title>Wiki</title> 
+  <link href="Assets/StyleSheet.css" rel="Stylesheet" type="text/css"/> 
+  <script type="text/javascript" src="CKEditor/ckeditor.js"></script>
+</head> 
+<body> 
+<form runat="server">
+
+<table>
+  <tr>
+    <td class="tree">
+      <div class="tree-contents">
+        <h2>Wiki</h2>
+        <asp:Literal ID="litTree" runat="server"></asp:Literal>
+        <br />
+        <a href='New.aspx'><em><small>New page</small></em></a>
+      </div>
+    </td>
+    <td class="docs">
+      <asp:contentplaceholder id="cphBody" runat="server">
+      </asp:contentplaceholder>
+    </td>
+  </tr>
+</table>
+
+
+</form>
+</body> 
+</html> 

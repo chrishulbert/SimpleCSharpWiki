@@ -1,0 +1,124 @@
+﻿html, body, a, form, h1, h2, h3, p, div, table, tr, td, th
+{
+  margin:0;
+  border:0;
+  padding:0;
+  border-collapse:collapse;
+}
+
+html
+{
+  overflow:auto;
+}
+
+body 
+{
+  font-family:Trebuchet MS;
+  padding:0 20px 0 20px;
+  background: url(bg-body.jpg) repeat-x;
+}
+
+td
+{
+  vertical-align:top;
+}
+
+td.docs 
+{
+  width:100%;
+}
+
+td.tree
+{
+  padding:20px 20px 0 0;
+  width:10%;
+}
+
+td.tree p
+{
+  padding-bottom:10px;
+}
+
+.tree-contents a
+{
+  text-decoration:none;
+  display:block;
+  width:100%;
+}
+
+.tree-contents span
+{
+  color:#ddd;
+  text-decoration:none;
+}
+
+.tree-contents a:hover span
+{
+  color:#999;
+}
+
+.tree-contents h2
+{
+  margin-bottom:0.5em;
+}
+
+.header h1 
+{
+  background: url(bg-titlebar.gif) left;
+  line-height: 52px;
+  color:White;
+  padding-left:10px;
+  margin-bottom:1em;
+  margin-top:20px;
+}
+
+.header h1 small 
+{
+  color: #eef;
+  font-weight:normal;
+}
+
+.master h2
+{
+  font-style:italic;
+  padding: 20px 0;
+  text-align:center;
+}
+
+.contents .edit 
+{
+  float:right;
+  color:Black;
+  font-style:italic;
+  padding:10px;
+}
+
+.contents h1, .contents h2, .contents h3, .contents p
+{
+  margin-bottom:0.5em;
+}
+
+a
+{
+  color:Black;
+}
+
+a:hover 
+{
+  background:#ffc;
+}
+
+a:active
+{
+  background:#fec;
+}
+
+p.buttons
+{
+  margin-top: 20px;
+}
+
+.cke_contents
+{
+height: 500px !important;
+}

@@ -1,17 +1,17 @@
 Simple C# Wiki
 ==============
 
-Wiki in C# / Asp.Net for small teams, running on intranets with active directory
+Wiki in C# / Asp.Net for small teams, running on intranets with active directory and a sql server.
 License: Public domain or any OSI-approved license (your choice)
 
 Features:
 ---------
 
 * Designed for small enterprise-environment asp.net development teams
-* Very simple, unlike most wikis
+* Clean interface, the idea being that overworked programmers are more likely to document things if its quick
+* Very simple to use and deploy, unlike most wikis
 * Integrates well in an enterprise environment, eg with IIS, Sql Server, and Active Directory
 * Single sign-on, so you don't need to remember another frigging login/password
-* Clean interface
 * Shows a tree view on the left pane of all wiki documents
 
 Screenshots:
